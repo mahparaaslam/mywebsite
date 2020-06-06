@@ -1,0 +1,214 @@
+    /* header styling*/
+.header{
+    height: 40px;
+    background-color: #FFC7DA; 
+}
+.wrapper{
+    margin: 0 0 -10px !important;
+    padding: 0 15px;   
+}
+.fa{
+    padding: 5px;
+}
+h1{
+    font-size: 15px;
+    padding: 10px;
+}
+.social {
+    float: right;
+   margin: -40px 0px 0px;
+}
+
+      /*navbar*/
+.navbar{
+margin-bottom:6px;
+width: 100% !important;
+}
+.navbar-toggler{
+    background-color: #FFC7DA;
+}
+.nav-link{
+    font-weight: 700;
+    color:black !important;
+}
+.nav-item:hover{
+    background-color: #FFC7DA !important;
+    border-radius: 0.7em;
+}
+.fa-facebook,.fa-instagram,.fa-envelope-o{
+    color: black !important;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-envelope-o:hover{
+    color:skyblue !important;
+}
+
+   /*card styling*/
+h2{
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+    border: 3px solid darkorange;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 4px lightgrey ;
+  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7em;
+}
+.slay,.row{
+    margin-top: 50px;
+}
+.card{
+    height: 21rem !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-color:lightgray;
+    border-radius: 0;
+}
+.card-img-top{
+    width: 10em;
+    height: 10em;
+  width: auto;
+}
+.card-text,.card-title{
+    font-size: 12px ;
+}
+.btn-primary{
+    font-size: 10px !important;
+    font-weight: bolder;
+    background-color: #FFC7DA;
+    color: black;
+    border: none;
+  border-radius: 0.7em;  
+}
+.card:hover{
+    box-shadow: none;
+}
+.btn:hover{
+    background-color:skyblue;
+  color: white;
+}
+.card-title{
+    font-weight:bolder!important;
+}
+.card-title{
+    align-items: center !important;
+}
+.col-inner{
+    flex: 1 0 auto;
+    margin-bottom: 50px;
+}
+del{
+    font-weight: lighter !important;
+}
+ins{
+    text-decoration: none;
+    color:deeppink;
+}
+
+     /*footer*/
+.page-footer{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    margin-top: 90px;
+}
+.text {
+    color: skyblue;
+}
+.footer-copyright{
+    background-color: #FFC7DA;
+    height: 40px;
+    margin-top: 70px !important;
+font-weight: 650;
+}
+.eplogo,.jclogo{
+    margin: 15px;
+}
+.jclogo{
+    display: inline-block;
+}
+.list-unstyled,.shop{
+    line-height: 2.3em;
+    color: white;
+}
+
+  /* CART STYLING */
+.cart,.tc{
+    margin: 15px 80px ; 
+}
+.cart>h1{
+    font-size: 2em;
+    font-weight: 500;
+}
+.cart>button{
+    padding: 6px 10px;
+}
+.cart>button:hover{
+background-color:#FFC7DA
+}
+
+   /*TERMS STYLING*/
+.tc>p{
+      font-size:18px ;
+      margin: 50px ;
+      padding: 25px;
+      line-height: 2.2em;
+}
+    /*CONTACT STYLING*/
+.form-row{
+    padding: 10px;
+    margin: 50px;
+}
+.col>button{
+padding: 10px 40px 10px 40px !important;
+margin: 25px ;
+font-size: large !important;
+}
+input,textarea{
+padding: 20px !important;
+margin: 20px 0 10px 0 !important;
+border-radius: 0.5em !important;
+border:1.5px solid #FFC7DA !important;
+}
+::placeholder{
+    color: black !important;
+}
+textarea:focus, input:focus{
+ border-style: none!important;
+}
+.shopcontent>p{
+    color: black;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: large;
+}
+.fa-envelope{
+    color: gray !important;
+    font-weight: bold !important;
+}
+.mail>a:hover{
+    text-decoration: none;
+    color: skyblue !important;
+}
+.mail{
+     margin-top: 50px;
+}
+
+   /*FACE STYLING*/
+.page-link{
+  color: black;
+  border: 2px solid #FFC7DA ;
+  border-radius: 6px;
+}
+.page-link:hover{
+  background-color: skyblue;
+  color: white;
+ }
+
+    /*ABOUT STYLING*/
+.about{
+    margin: 40px auto 0 auto;
+    text-align: left;
+    line-height: 2em;
+    padding: 20px ;
+}
